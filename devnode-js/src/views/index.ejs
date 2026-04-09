@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<%- include('./partials/head.ejs') %>
+<body>
+    <%- include('./partials/navbar.ejs') %>
+
+    <main class="page-shell">
+        <section class="hero">
+            <div>
+                <span class="eyebrow">Visualização dos dados</span>
+                <h1>Usuários organizados em cards individuais.</h1>
+                <p>
+                    Esta tela apresenta os usuários cadastrados em um layout mais limpo e legível,
+                    com foco em nome, e-mail, domínio e identificação de cada registro.
+                </p>
+            </div>
+
+            <div class="hero-stats">
+                <article class="stat-card">
+                    <span class="stat-label">Total de usuários</span>
+                    <strong class="stat-value"><%= users.length %></strong>
+                    <p class="stat-hint">Quantidade de registros retornados pela sua coleção.</p>
+                </article>
+                <article class="stat-card">
+                    <span class="stat-label">Endpoint visual</span>
+                    <strong class="stat-value">/views/users</strong>
+                    <p class="stat-hint">Rota EJS para exibir os dados de forma mais amigável.</p>
+                </article>
+            </div>
+        </section>
+
+        <% if (users.length > 0) { %>
+            <section class="content">
+                <% users.forEach((user, index) => {
+                    const fullName = `${user.firstName} ${user.lastName}`;
+                    const initials = `${(user.firstName || '').charAt(0)}${(user.lastName || '').charAt(0)}`.toUpperCase();
+                    const emailDomain = user.email && user.email.includes('@') ? user.email.split('@')[1] : 'dominio-indefinido';
+                    const shortId = user._id ? String(user._id).slice(-6) : 'sem-id';
+                %>
+                    <article class="user-card">
+                        <div class="user-card__top">
+                            <div class="avatar"><%= initials || 'US' %></div>
+                            <div>
+                                <span class="overline">Usuário <%= index + 1 %></span>
+                                <h2 class="title"><%= fullName %></h2>
+                                <p class="subtitle">Cadastro individual no painel</p>
+                            </div>
+                        </div>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <span>E-mail</span>
+                                <strong><%= user.email %></strong>
+                            </div>
+                            <div class="info-item">
+                                <span>Domínio</span>
+                                <strong><%= emailDomain %></strong>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <span class="card-tag">Registro ativo</span>
+                            <span class="card-id">ID final: <%= shortId %></span>
+                        </div>
+                    </article>
+                <% }) %>
+            </section>
+        <% } else { %>
+            <section class="empty-state">
+                <h2>Nenhum usuário encontrado</h2>
+                <p>
+                    Quando houver registros no banco, eles aparecerão aqui em cards individuais
+                    com informações resumidas para leitura rápida.
+                </p>
+            </section>
+        <% } %>
+    </main>
+</body>
+</html>
