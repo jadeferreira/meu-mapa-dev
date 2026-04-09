@@ -2,13 +2,15 @@
 
 Repositório criado para organizar meus estudos em desenvolvimento, reunindo projetos práticos por tecnologia e acompanhando minha evolução ao longo do tempo.
 
+> Um espaço para revisar fundamentos, consolidar conhecimentos e registrar minha evolução na prática.
+
 ## Projeto atual
 
 ### `devnode-js`
 
-Projeto de estudos com Node.js, Express, EJS e MongoDB para revisar conceitos importantes, consolidar conhecimentos que já venho aprendendo e reforçar a prática com backend, rotas, views e manipulação de dados.
+Projeto de estudos com **Node.js**, **Express**, **EJS** e **MongoDB** para revisar conceitos importantes, consolidar conhecimentos que já venho aprendendo e reforçar a prática com backend, rotas, views e manipulação de dados.
 
-Principais pontos praticados neste projeto:
+**Principais pontos praticados neste projeto:**
 
 - estrutura básica com Node.js
 - criação de servidor com Express
@@ -31,4 +33,4 @@ Minha ideia com este repositório é consolidar o que já sei, revisar fundament
 
 ## Autor
 
-Jade Ferreira
+**Jade Ferreira** ✨
