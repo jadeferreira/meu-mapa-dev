@@ -1,42 +1,42 @@
 # Meu Mapa Dev
 
-Repositorio criado para organizar meus estudos em desenvolvimento, reunindo projetos praticos por tecnologia e acompanhando minha evolucao ao longo do tempo.
+Repositório criado para organizar meus estudos em desenvolvimento, reunindo projetos práticos por tecnologia e acompanhando minha evolução ao longo do tempo.
 
-> Um espaco para revisar fundamentos, consolidar conhecimentos e registrar minha evolucao na pratica.
+> Um espaço para revisar fundamentos, consolidar conhecimentos e registrar minha evolucão na prática.
 
 ## Projeto atual
 
 ### `devreact` - em andamento
 
-Projeto atual do repositorio, desenvolvido com **React**, focado na construcao de um **gerenciador de tarefas**.
+Projeto atual do repositório, desenvolvido com **React**, focado na construção de um **gerenciador de tarefas**.
 
-Neste momento, este e o projeto principal em desenvolvimento dentro do `meu-mapa-dev`.
+Neste momento, este é o projeto principal em desenvolvimento dentro do `meu-mapa-dev`.
 
-**O que ja esta sendo trabalhado neste projeto:**
+**O que já está sendo trabalhado neste projeto:**
 
-- estrutura inicial com React
-- organizacao por componentes
-- criacao e listagem de tarefas
-- exclusao de tarefas
-- marcacao de tarefas como concluidas
-- base para evoluir a navegacao entre paginas
+- Estrutura inicial com React
+- Organização por componentes
+- Criação e listagem de tarefas
+- Exclusão de tarefas
+- Marcação de tarefas como concluídas
+- Base para evoluir a navegação entre páginas
 
-## Outros projetos no repositorio
+## Outros projetos no repositório
 
 ### `devnode-js`
 
-Projeto de estudos com **Node.js**, **Express**, **EJS** e **MongoDB** para revisar conceitos de backend, rotas, views e manipulacao de dados.
+Projeto de estudos com **Node.js**, **Express**, **EJS** e **MongoDB** para revisar conceitos de backend, rotas, views e manipulação de dados.
 
 ## Proximos passos
 
-Este repositorio continuara sendo atualizado com novos projetos de estudo conforme minha evolucao em tecnologias como:
+Este repositório continuará sendo atualizado com novos projetos de estudo conforme minha evolução em tecnologias como:
 
 - TypeScript
 - Next.js
 
 ## Objetivo
 
-Minha ideia com este repositorio e consolidar o que ja sei, revisar fundamentos importantes e registrar minha evolucao pratica em diferentes tecnologias por meio de projetos e experimentos.
+Minha ideia com este repositório é consolidar o que já sei, revisar fundamentos importantes e registrar minha evolução prática em diferentes tecnologias por meio de projetos e experimentos.
 
 ## Autor
 
