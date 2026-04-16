@@ -2,36 +2,37 @@
 
 Repositório criado para organizar meus estudos em desenvolvimento, reunindo projetos práticos por tecnologia e acompanhando minha evolução ao longo do tempo.
 
-> Um espaço para revisar fundamentos, consolidar conhecimentos e registrar minha evolucão na prática.
+> Um espaço para revisar fundamentos, consolidar conhecimentos e registrar minha evolução na prática.
 
-## Projeto atual
+## Momento atual
 
-### `devreact` - em andamento
+O módulo `devtypescript` foi finalizado como etapa de estudo de fundamentos da linguagem, com exercícios sobre:
 
-Projeto atual do repositório, desenvolvido com **React**, focado na construção de um **gerenciador de tarefas**.
+- funções
+- objetos
+- classes
+- generics
 
-Neste momento, este é o projeto principal em desenvolvimento dentro do `meu-mapa-dev`.
+Agora o próximo passo do repositório será a continuação dos estudos com `Next.js`.
 
-**O que já está sendo trabalhado neste projeto:**
+## Projetos no repositório
 
-- Estrutura inicial com React
-- Organização por componentes
-- Criação e listagem de tarefas
-- Exclusão de tarefas
-- Marcação de tarefas como concluídas
-- Base para evoluir a navegação entre páginas
+### `devtypescript`
 
-## Outros projetos no repositório
+Projeto de estudos com **TypeScript**, focado em reforçar tipagem, organização de código e conceitos centrais da linguagem.
+
+### `devreact`
+
+Projeto com **React**, voltado para a construção de um **gerenciador de tarefas**, explorando componentes, estado e fluxo de interface.
 
 ### `devnode-js`
 
 Projeto de estudos com **Node.js**, **Express**, **EJS** e **MongoDB** para revisar conceitos de backend, rotas, views e manipulação de dados.
 
-## Proximos passos
+## Próximos passos
 
-Este repositório continuará sendo atualizado com novos projetos de estudo conforme minha evolução em tecnologias como:
+Este repositório continuará sendo atualizado com novos projetos conforme minha evolução, com foco imediato em:
 
-- TypeScript
 - Next.js
 
 ## Objetivo
